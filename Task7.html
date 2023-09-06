@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .b1
+    {
+        height: 350px;
+        width: 300px;
+        border: 2px solid black;
+        margin:70px 40px;
+        padding-top:15px;
+        padding-right:10px;
+        padding-left:8px;
+
+    } 
+
+    .b2
+    {
+        width:295px;
+        height: 70px;
+        background-color: paleturquoise;
+        font-size: 30px; 
+        text-indent: 20px; 
+        margin-left: 5px;
+        
+    }
+
+    .b2:hover{
+
+        background-color: orange;
+    }
+
+    .b2 a:hover
+    {
+        color:white;
+    }
+
+    /* p{
+        
+        font-size: 30px; 
+        text-indent: 20px; 
+        margin-left: 5px;
+        
+    } */
+    .flexContainer
+        {
+            height: 70px;
+            width:450px;
+            border: 1px solid black;
+            display: flex;
+            padding-left: 8px;
+            text-align: center;
+        }
+        .flexitem:hover{
+            background-color: gray;
+        }
+        
+        .flexitem:hover a{
+
+            color:white;
+            background-color: gray;
+        }
+        .flexitem{
+
+            margin-top: 10px;
+            display: grid;
+            place-items: center;
+            width: 100px;
+            height:50px;
+            border-right:1px solid blue;
+            
+            background-color: darkgray;
+            
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+    #i1
+    {
+        color:white;
+        background-color: orange;
+        padding-bottom:30px ;
+    }
+
+       
+    </style>
+</head>
+<body>
+    <div class = 'b1'>
+
+        <div class="b2"><a href="https://google.com">Home</a></div>
+        <div class="b2"><a href="https://google.com">Java</a></div>
+        <div class="b2"><a href="https://google.com">CSS</a></div>
+        <div class="b2"><a href="https://google.com">HTML</a></div>
+        <div class="b2"><a href="https://google.com">Bootstrap</a></div>
+
+    </div>
+
+    <div class ='flexContainer'>
+        <div class="flexitem" id="j1"><a href="https://google.com">Home</a></div>
+        <div class="flexitem"><a href="https://google.com">Java</a></div>
+        <div class="flexitem"><a href="https://google.com">HTML</a></div>
+        <div class="flexitem"><a href="https://google.com">CSS</a></div>
+        <div class="flexitem"></div>
+    </div>
+
+</body>
+</html>
